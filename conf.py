@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'ssh-1c-docs'
+project = u'ssh-1c'
 copyright = u'2018, best-tech'
 author = u'best-tech'
 
@@ -102,7 +102,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ssh-1c-docsdoc'
+htmlhelp_basename = 'ssh-1c'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -129,7 +129,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ssh-1c-docs.tex', u'1С: Предприятие SSH. Документация',
+    (master_doc, 'ssh-1c.tex', u'SSH-клиент для 1С: Предприятие. Документация',
      u'best-tech', 'manual'),
 ]
 
@@ -139,7 +139,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'ssh-1c-docs', u'1С: Предприятие SSH. Документация',
+    (master_doc, 'ssh-1c', u'SSH-клиент для 1С: Предприятие. Документация',
      [author], 1)
 ]
 
@@ -150,8 +150,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ssh-1c-docs', u'1С: Предприятие SSH. Документация',
-     author, 'ssh-1c-docs', 'One line description of project.',
+    (master_doc, 'ssh-1c', u'SSH-клиент для 1С: Предприятие. Документация',
+     author, 'ssh-1c', 'ssh-client 1s:enterprise docs',
      'Miscellaneous'),
 ]
 
